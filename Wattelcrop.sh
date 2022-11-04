@@ -1,0 +1,40 @@
+#!/bin/bash
+
+#User Details to be Display
+
+
+
+echo "==========###Welcome to ABCD.com###=========="
+echo "Please Enter your $name:"
+read name
+
+echo "Welcome to ABCD $name"
+
+echo "Fill the Following Details"
+ 
+echo "Your First name: $First_name"
+read First_name
+
+echo "Your Last name: $Last_name"
+read Last_name
+
+echo "Please enter your Phone Number: $Num"
+read Num
+
+echo "Please enter your any alternative number: $Alt_num"
+read Alt_num
+
+echo "Enter your mail'id : $mail"
+read mail
+
+echo "Enter Address: $Add"
+read Add
+
+echo "--------------------------------------------------------------------------------------------------------------------------------------------------------------------"
+
+echo "Your Complete Details were"
+echo "Name: $First_name $Last_name"
+echo "Phone number: $Num"
+echo "Alt-Phone number: $Alt_num"
+echo "E-mail: $mail"
+echo "Address: $Add"
